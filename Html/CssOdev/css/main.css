@@ -1,0 +1,55 @@
+
+.main {
+  margin: auto;
+  width: 53%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 240, 240);
+}
+
+.menu-links {
+    margin: 10px;
+    border:3px solid rgb(59, 58, 56);
+    border-radius: 10px;
+    background-color:  rgb(240, 78, 3) ;
+    font-size: large;
+    color: honeydew;
+    padding: 10px;
+    vertical-align: middle;
+
+}
+#header {
+    display:flex;
+    flex-direction: row;
+}
+
+.article {
+    font-size: 24px;
+}
+
+/* h1 {
+    font-size: 56px;
+} */
+h3 {
+    font-size: 36px;
+}
+.copyright {
+    font-size: 10px;
+}
+.products {
+    
+    width: fit-content;
+    font-size: 24px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 10px;
+    background-color: rgb(242, 244, 247);
+    padding: 5px;
+    margin: 10px;
+    
+}
+.products-row {
+    display:flex;
+    flex-direction: row;
+
+}
