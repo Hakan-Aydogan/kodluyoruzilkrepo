@@ -1,0 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-nav {
+    background-color: #FFC017;
+}
+
+.border-bottom {
+    border-bottom: #0c0c0c ;
+}
+.sticky {
+    
+    position: sticky;
+   
+   
+}
