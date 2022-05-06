@@ -21,4 +21,18 @@ def flatten(myList):
 
 x=flatten([[1, 2], [3, 4], [5, 6, 7]])
 
+def reverseList(Mlist):
+
+    newList=[]
+     
+    Mlist.reverse()
+    for i in Mlist:
+        if type(i) is list:
+            i.reverse()
+    
+    return Mlist
+
+y= reverseList([[1, 2], [3, 4], [5, 6, 7]])
+
 print(x)
+print(y)
